@@ -1,3 +1,3 @@
 # Web-projekti
 
-#Tämän projektin tarkoituksena on seurata web-ohjelmointi kurssin tehtäviä.
+Tämän projektin tarkoituksena on seurata web-ohjelmointi kurssin tehtäviä.
