@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    margin: 0;
+    min-height: 97.9vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+p, ol {
+    background: white;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 10px;
+    transition: all 1s ease;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 230px;
+    text-align: center;
+    color: #2c3e50;
+    transition: all 1s ease;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+    padding: 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    display: block;
+    padding: 12px;
+    background: #3498db;
+    color: white;
+    text-decoration: underline;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: all 1s ease;
+}
+
+a:hover {
+    background: #2c80b4;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+h1, p, ol {
+    animation: fadeIn 0.8s ease forwards;
+}
+
+body.dark {
+    background: linear-gradient(135deg, #1e1e2f, #121212);
+}
+
+body.dark h1 {
+    color: white;
+}
+body.dark p {
+    background: #2a2a3d;
+    color: white;
+}
+
+body.dark ol {
+    background: #2a2a3d;
+}
+
+body.dark a {
+    background: #555;
+}
+
+#themeBtn {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #ffffff;
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
