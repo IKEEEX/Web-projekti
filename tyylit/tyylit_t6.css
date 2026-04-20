@@ -5,13 +5,18 @@ body {
 
 .header {
   padding: 60px;
-  text-align: center;
+  text-align: flex-start;
   background: #1abc9c;
   color: white;
 }
 
-.header h1{
+.header h1 {
+  text-align: center;
   font-size: 48px;
+}
+
+.header p {
+  text-align: center;
 }
 
 .footer {
@@ -24,7 +29,6 @@ body {
   font-style: italic;
 }
 
-/* Navigaatiopalkki */
 .navbar {
   display: flex;
   background-color: #333;
